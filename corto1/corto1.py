@@ -16,7 +16,7 @@ def collatz(N):
     return sec
 
 #mi numero de carnet es 201700804 por lo tanto mis secuencias generadas son de 2 a 804archivo = open('collatz.txt', 'w')
-archivo = open('collatz.txt', 'w')
+archivo = open('corto1/collatz.txt', 'w')
 for i in range(2, 805):
     archivo.write(str(str(collatz(i))+'\n'))
     print(collatz(i))
