@@ -22,3 +22,11 @@ for i in range(2, 805):
     print(collatz(i))
 archivo.close()
     
+#Funcionamiento:        40/40
+#Uso de Funciones       20/20
+#Manejo de archivos     10/10
+#Manejo de Listas       10/10
+#Uso de git             20/20
+#*****************************
+#Total                  100/100
+
